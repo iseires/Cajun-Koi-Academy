@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&display=swap');
+
+.template {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+.fit {
+    width: 60%;
+    margin-right: 50px;
+    border-radius: 30px;
+    height: 100%;
+}
+
+.template h1 {
+    font-size: 35px;
+    font-family: ibm plex mono;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 1120px) {
+    .template {
+        flex-direction: column
+    }
+
+    .fit {
+        width: 90%;
+        margin: auto;
+    }
+}

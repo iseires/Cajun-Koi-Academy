@@ -1,0 +1,121 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(116, 209, 241);
+    height: 100px;
+    align-items: center;
+}
+
+.cat {
+    width: 71px;
+    height: 71px;
+}
+
+.list ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-weight: bold;
+}
+
+.poplist {
+    background-color: rgba(116, 209, 241, 0.2);
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 30%;
+    display: none;
+}
+
+.poplist ul {
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 10;
+    position: absolute;
+}
+
+.list li {
+ 
+    padding: 9px;
+    border-radius: 50px;
+-webkit-box-shadow: 0px 0px 12px 2px rgba(118, 209, 240, 1);
+    -moz-box-shadow: 0px 0px 12px 2px rgba(118, 209, 240, 1);
+    box-shadow: 0px 0px 12px 2px rgba(118, 209, 240, 1);
+}
+
+.list li:hover {
+    background-color: rgb(116, 209, 241)
+}
+
+.list{
+    width: 60%;
+}
+
+.hamburger {
+    display: none;
+}
+
+.poplist {
+    display: none;
+}
+
+
+@media screen and (max-width: 1120px) {
+  .list {
+    width: 80%;
+  }
+
+ 
+}
+
+@media screen and (max-width: 1000px) {
+    .hamburger {
+            display: block;
+        }
+    
+        .nav {
+            justify-content: space-between;
+            padding-inline: 15px;
+        }
+
+        .list {
+            display: none;
+        }
+
+           .poplist {
+               background-color: rgba(116, 209, 241, 1);
+               position: absolute;
+               right: 0;
+               height: 100vh;
+               width: 50%;
+               display: block;
+               z-index: 3;
+               top: 0;
+           }
+    
+           .show {
+               width: 100%;
+               height: 100%;
+               display: block;
+               z-index: 10;
+             display: flex;
+             flex-direction: column;
+             justify-content: center;
+                z-index: 30;
+                 align-items: center;
+           }
+
+           .show p {
+            font-size: 20px;
+            margin: 10px;
+           }
+
+           .close {
+            position: absolute;
+            right: 15px;
+            top: 15px;
+           }
+}

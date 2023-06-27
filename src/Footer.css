@@ -1,0 +1,19 @@
+.footer-list {
+    width: 40%;
+    justify-content: space-around;
+    display: flex;
+    margin: auto;
+
+}
+
+.footer {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid rgb(116, 209, 241);
+    padding: 30px;
+}
+
+.caju {
+    padding-top: 25px;
+}

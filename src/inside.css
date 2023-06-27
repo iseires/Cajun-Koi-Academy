@@ -1,0 +1,9 @@
+.inside {
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.inside h1 {
+    font-family: ibm plex mono;
+}

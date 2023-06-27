@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&display=swap');
+
+.about {
+    margin-bottom: 0;
+    width: 70%;
+    margin: 0 auto;
+    font-family: ibm plex mono;
+
+}
+
+.makers {
+
+}
+
+.makers h1 {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.pic {
+    display: flex;
+    justify-content: center;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.pics {
+    width: 40%;
+    margin: 10px;
+    -webkit-box-shadow: 0px 10px 22px -4px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 10px 22px -4px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 10px 22px -4px rgba(0, 0, 0, 0.75);
+}
+
+.notion {
+    width: 60%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.noteimg{
+height: 200px;
+aspect-ratio: 1;
+}
+
+.notion p {
+    margin-left: 25px;
+}
+
+.title {
+    font-size: 45px;
+}
+
+.iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1120px) {
+    .pic,.notion {
+        flex-direction: column;
+    }
+
+    .pics {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .notion {
+        width: 90%;
+    }
+}
